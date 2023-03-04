@@ -1,0 +1,59 @@
+/* font  */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  border: none;
+  clip: rect(0 0 0 0);
+}
+
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  /* position: relative; */
+  /* z-index: 1; */
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* width: 350px; */
+}
+
+/* Psevdo elements ::before, ::after , ::placeholder */
+/* li::before {
+  position: absolute;
+  right: -50px;
+  z-index: 2;
+  display: block;
+  width: 86px;
+  height: 86px;
+  background-image: url("./images/thunder.svg");
+  content: "";
+} */
+
+a {
+  display: inline-flex;
+  align-items: center;
+  margin: 50px;
+  padding: 18px 34px 18px 30px;
+  color: #fff;
+  background-color: #299764;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+a::after {
+  display: block;
+  /* padding: 15px; */
+  width: 15px;
+  height: 15px;
+  margin-left: 11px;
+  background-image: url("./images/loginicon.svg");
+  content: "";
+}
